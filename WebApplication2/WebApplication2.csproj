@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-preview.3.24172.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0-preview.3.24172.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-preview.3.24172.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Sneakers\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sneakers\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sneakers\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sneakers\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Sneakers\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Store\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Store\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Store\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Store\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Store\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Stores\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Stores\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Stores\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Stores\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Stores\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStore\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStore\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStore\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStore\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStore\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStores\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStores\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStores\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStores\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStores\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Brands\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Brands\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Brands\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Brands\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Brands\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsContoller\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsContoller\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsContoller\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsContoller\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsContoller\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStoresContoller\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStoresContoller\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStoresContoller\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStoresContoller\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\BrandsStoresContoller\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\SneakersContoller\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\SneakersContoller\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\SneakersContoller\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\SneakersContoller\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\SneakersContoller\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\StoresContoller\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\StoresContoller\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\StoresContoller\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\StoresContoller\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\StoresContoller\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Owners\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Owners\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Owners\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Owners\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Owners\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\OwnersMachines\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\OwnersMachines\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\OwnersMachines\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\OwnersMachines\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\OwnersMachines\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VendingMachines\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VendingMachines\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VendingMachines\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VendingMachines\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\VendingMachines\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
